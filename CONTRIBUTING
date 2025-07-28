@@ -1,0 +1,303 @@
+# Contributing to Eva & Evafame
+
+Welcome to the Eva & Evafame community! We're building AI tools that truly serve artists, and we need your help to make it happen.
+
+## 🤝 Before You Start
+
+### Read Our Commitment
+
+**All contributors must read and agree to our [Open Source Commitment Manifest](MANIFEST.md).** This ensures Eva remains community-owned forever and serves artists' interests above all else.
+
+**By contributing to this project, you acknowledge that you have read, understood, and agree to uphold the principles outlined in our Manifest.**
+
+### Sign the Manifest
+
+We encourage all contributors to explicitly sign the Manifest by:
+
+1. **Fork this repository**
+2. **Add your name to the Contributors section in [MANIFEST.md](MANIFEST.md)**
+3. **Submit a Pull Request with your signature**
+
+**Format:** `- [Your Name] - [Date] - [Role: Developer/Artist/Designer/Regional Coordinator]`
+
+*Note: Signing is encouraged but not required. By contributing, you implicitly agree to the Manifest terms.*
+
+---
+
+## 🎨 Ways to Contribute
+
+### For Artists
+**Help shape Eva to serve your needs:**
+
+- **Share Your Story**: Tell us about your platform frustrations and workflow challenges
+- **Join Interviews**: Participate in our ongoing research (20+ artists interviewed so far)
+- **Beta Testing**: Try early versions of Eva and provide feedback
+- **Cultural Input**: Help Eva understand your local art scene and traditions
+- **Community Building**: Invite other artists who might benefit from community-owned tools
+
+**Get Started:** Join our [Discord](https://discord.gg/evafame) and introduce yourself in the #artists channel.
+
+### For Developers
+**Build the tools artists need:**
+
+- **Eva's AI Core**: Natural language processing, multi-modal interactions
+- **Cultural Adaptation**: Localization frameworks for different regions
+- **Platform Integration**: APIs for Instagram, TikTok, regional platforms
+- **Smart Contracts**: Blockchain copyright protection systems
+- **Community Tools**: Governance, voting, and collaboration features
+
+**Get Started:** Check our [GitHub Issues](../../issues) labeled `good first issue` or `help wanted`.
+
+### For Designers
+**Create artist-friendly interfaces:**
+
+- **UI/UX Design**: Interface mockups for Eva and Evafame platforms
+- **Brand Identity**: Visual systems that celebrate artistic diversity
+- **Cultural Sensitivity**: Design patterns that respect different cultural contexts
+- **Accessibility**: Ensure tools work for artists with different abilities
+- **Documentation Design**: Make technical information artist-friendly
+
+**Get Started:** Look for issues labeled `design` or `ui/ux`.
+
+### for Regional Coordinators
+**Build local artist communities:**
+
+- **Cultural Adaptation**: Help Eva understand your region's art scene
+- **Community Building**: Connect with local artists and art institutions
+- **Language Support**: Assist with translations and cultural context
+- **Partnership Development**: Build relationships with galleries, schools, and cultural organizations
+- **Local Feedback**: Collect and synthesize regional artist needs
+
+**Get Started:** Email [hello@evafame.com](mailto:hello@evafame.com) with your interest and regional background.
+
+### for Writers & Researchers
+**Document and share knowledge:**
+
+- **Technical Documentation**: API guides, architecture explanations
+- **Artist Resources**: Tutorials, best practices, case studies
+- **Cultural Research**: Document artistic traditions and market contexts
+- **Community Stories**: Interview artists and share success stories
+- **Academic Partnerships**: Connect us with creator economy researchers
+
+**Get Started:** Check issues labeled `documentation` or `research`.
+
+---
+
+## 🛠️ Development Process
+
+### Setting Up Development Environment
+
+**Prerequisites:**
+- Node.js 18+ and npm/yarn
+- Git and GitHub account
+- Basic understanding of React/Next.js (for frontend contributions)
+- Python 3.8+ (for AI/ML contributions)
+
+**Local Setup:**
+```bash
+# Clone the repository
+git clone https://github.com/[username]/evafame-creative-chain.git
+cd evafame-creative-chain
+
+# Install dependencies (when package.json exists)
+npm install
+
+# Set up environment variables
+cp .env.example .env.local
+
+# Start development server (when implemented)
+npm run dev
+```
+
+*Note: As we're in early development, some of these commands may not exist yet. Check the README for current setup instructions.*
+
+### Making Contributions
+
+**1. Find or Create an Issue**
+- Check existing [issues](../../issues) for something you'd like to work on
+- For new features, create an issue first to discuss with the community
+- Use issue templates to provide necessary context
+
+**2. Fork and Branch**
+```bash
+# Fork the repository on GitHub, then:
+git clone https://github.com/[your-username]/evafame-creative-chain.git
+cd evafame-creative-chain
+
+# Create a feature branch
+git checkout -b feature/your-feature-name
+```
+
+**3. Develop and Test**
+- Follow existing code style and conventions
+- Add tests for new functionality where possible
+- Test your changes thoroughly before submitting
+- Document any new features or API changes
+
+**4. Submit Pull Request**
+- Push your branch to your fork
+- Create a Pull Request with clear description
+- Reference any related issues
+- Be responsive to code review feedback
+
+### Code Style Guidelines
+
+**General Principles:**
+- **Artist-First**: Code should serve artists' needs, not developer convenience
+- **Cultural Sensitivity**: Avoid assumptions about global users
+- **Accessibility**: Consider artists with different abilities and technical skills
+- **Performance**: Remember that some artists have slower internet connections
+- **Privacy**: Protect artist data as if it were your own creative work
+
+**Technical Standards:**
+- Use TypeScript for type safety
+- Follow existing naming conventions
+- Add JSDoc comments for public APIs
+- Keep functions small and focused
+- Write self-documenting code where possible
+
+### Testing
+
+**Current Testing Approach:**
+- Manual testing with artist community members
+- Feedback collection through Discord and interviews
+- Performance testing with different internet speeds
+- Cultural sensitivity review by regional coordinators
+
+**Future Testing Framework:**
+- Unit tests for core AI functionality
+- Integration tests for platform APIs
+- End-to-end tests for artist workflows
+- Cultural adaptation testing with community input
+
+---
+
+## 💬 Community Guidelines
+
+### Communication Standards
+
+**Be Respectful:**
+- Honor different artistic traditions and cultural backgrounds
+- Use inclusive language and avoid assumptions
+- Listen to artist needs even if you don't understand the creative process
+- Acknowledge that art is personal and cultural, not just commercial
+
+**Be Constructive:**
+- Focus on solutions that serve artists better
+- Provide specific, actionable feedback
+- Ask questions if you don't understand artist workflows
+- Share knowledge and resources generously
+
+**Be Patient:**
+- Artists and developers have different vocabularies and priorities
+- Cultural adaptation takes time and community input
+- Consensus-building is slower but creates better outcomes
+- Some contributors are learning new skills while participating
+
+### Conflict Resolution
+
+**Community Issues:**
+1. **Direct Communication**: Try to resolve issues privately first
+2. **Community Mediation**: Involve community moderators if needed
+3. **Governance Process**: Use democratic processes for major disputes
+4. **Appeal Rights**: Community can appeal moderator decisions
+
+**Technical Disagreements:**
+1. **Issue Discussion**: Use GitHub issues for technical debates
+2. **Community Input**: Ask artists how different approaches would affect them
+3. **Prototype and Test**: Build small demos to test different approaches
+4. **Community Vote**: For major architectural decisions, let community decide
+
+---
+
+## 🎯 Current Priorities
+
+### Immediate Needs (Next 30 Days)
+- [ ] Complete artist interview program (target: 50+ interviews)
+- [ ] Set up basic development infrastructure
+- [ ] Create Eva's first conversational prototype
+- [ ] Establish Discord community moderation and structure
+- [ ] Document cultural adaptation requirements for initial regions
+
+### Short-Term Goals (Next 3 Months)
+- [ ] Launch Eva's core AI agent functionality
+- [ ] Build basic cultural adaptation framework
+- [ ] Establish community governance processes
+- [ ] Create artist onboarding and feedback systems
+- [ ] Develop smart contract copyright protection
+
+### Long-Term Vision (Next 12 Months)
+- [ ] Deploy first regional platform (Evafame Deutschland)
+- [ ] Expand to Turkey and US markets
+- [ ] Establish sustainable economic model
+- [ ] Create framework for unlimited regional expansion
+- [ ] Demonstrate successful community governance at scale
+
+---
+
+## 📞 Getting Help
+
+### For Contributors
+- **Discord**: [Join our community](https://discord.gg/evafame) for real-time help
+- **GitHub Discussions**: For longer-form technical discussions
+- **Issues**: For specific bugs or feature requests
+- **Email**: [hello@evafame.com](mailto:hello@evafame.com) for private matters
+
+### For Artists
+- **Discord #artists Channel**: Connect with other artists and share experiences
+- **Interview Program**: Sign up for one-on-one conversations about your needs
+- **Newsletter**: [creativechain.substack.com](https://creativechain.substack.com) for weekly updates
+- **Community Calls**: Monthly virtual meetups (announced in Discord)
+
+### Documentation and Resources
+- **Technical Docs**: [docs/](docs/) folder (being developed)
+- **Artist Resources**: [examples/](examples/) folder (being developed)
+- **Cultural Guidelines**: [MANIFEST.md](MANIFEST.md) community principles
+- **Building Log**: [Substack newsletter](https://creativechain.substack.com) for progress updates
+
+---
+
+## 🙏 Recognition
+
+We believe in recognizing all forms of contribution to our community:
+
+### Contributor Recognition
+- **Code Contributors**: Listed in repository contributors
+- **Community Contributors**: Featured in newsletter and community highlights  
+- **Cultural Advisors**: Special recognition for preserving artistic traditions
+- **Regional Coordinators**: Leadership roles in local communities
+- **Artist Partners**: Credited for shaping Eva's development through their input
+
+### Annual Community Recognition
+- **Community Choice Awards**: Artists vote for most helpful contributors
+- **Cultural Preservation Award**: Recognizing efforts to maintain artistic traditions
+- **Innovation Award**: For creative solutions that serve artists better
+- **Mentorship Award**: For helping new community members get involved
+
+---
+
+## 📝 Legal Notes
+
+### Contributor License Agreement
+
+By contributing to Eva & Evafame, you agree that:
+
+- **Your contributions are your own work** or you have permission to contribute them
+- **You grant the community perpetual rights** to use your contributions under our open source licenses
+- **You have read and agree to our [Open Source Commitment Manifest](MANIFEST.md)**
+- **You will not contribute anything that violates others' copyrights or intellectual property**
+
+### Intellectual Property
+
+- **Code Contributions**: Licensed under MIT License
+- **Documentation**: Licensed under Creative Commons Attribution 4.0
+- **Design Assets**: Licensed under Creative Commons Attribution 4.0 unless otherwise specified
+- **Cultural Knowledge**: Shared respectfully with permission from source communities
+
+---
+
+*Thank you for helping build tools that truly serve artists!*
+
+**Questions?** Don't hesitate to reach out - we're here to help you contribute successfully.
+
+**Ready to get started?** Join our [Discord](https://discord.gg/evafame) and introduce yourself!
