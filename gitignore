@@ -87,7 +87,37 @@ venv/
 *.tgz
 *.tar.gz
 
+# Bitcoin/Lightning Network Development
+*.macaroon
+*.cert
+lnd.conf
+bitcoind.conf
+bitcoin.conf
+lightning/
+.lightning/
+regtest/
+testnet/
+signet/
+
+# Lightning Network credentials
+admin.macaroon
+readonly.macaroon
+invoice.macaroon
+router.macaroon
+
+# Bitcoin private keys and wallets
+*.wallet
+wallet.dat
+*.key
+*.seed
+
+# RGB smart contract development
+rgb-contracts/
+*.rgb
+*.yaml
+
 # Community-sensitive files
 /community-private/
 /artist-interviews-raw/
 /cultural-research-private/
+/bitcoin-development-notes/
