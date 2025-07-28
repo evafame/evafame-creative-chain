@@ -18,6 +18,10 @@ This project was born from a moment in Turkey. I was sitting at a café when an 
 
 That woman was preserving centuries-old techniques and cultural knowledge, but she had no way to tell her story to the world, no AI assistant to help her create compelling content, no platform that understood and celebrated her cultural context.
 
+"That Turkish grandmother could receive Bitcoin payments instantly via Lightning, 
+no matter what her local banking situation is. Bitcoin's censorship resistance 
+means no platform can ever block her from selling her traditional crafts globally.
+
 This is why Eva exists - to be that bridge between local creativity and global opportunity.
 
 ## 🤖 What is Eva?
