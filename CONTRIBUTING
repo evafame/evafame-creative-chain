@@ -1,14 +1,14 @@
 # Contributing to Eva & Evafame
 
-Welcome to the Eva & Evafame community! We're building AI tools that truly serve artists, and we need your help to make it happen.
+Welcome to the Eva & Evafame community! We're building Bitcoin-native AI tools that truly serve artists, and we need your help to make it happen.
 
 ## 🤝 Before You Start
 
-### Read Our Commitment
+### Read Our Bitcoin-Native Commitment
 
-**All contributors must read and agree to our [Open Source Commitment Manifest](MANIFEST.md).** This ensures Eva remains community-owned forever and serves artists' interests above all else.
+**All contributors must read and agree to our [Bitcoin-Native Open Source Commitment Manifest](MANIFEST.md).** This ensures Eva remains community-owned forever, operates on Bitcoin's censorship-resistant infrastructure, and serves artists' financial sovereignty above all else.
 
-**By contributing to this project, you acknowledge that you have read, understood, and agree to uphold the principles outlined in our Manifest.**
+**By contributing to this project, you acknowledge that you have read, understood, and agree to uphold the Bitcoin-sovereign principles outlined in our Manifest.**
 
 ### Sign the Manifest
 
@@ -38,15 +38,21 @@ We encourage all contributors to explicitly sign the Manifest by:
 **Get Started:** Join our [Discord](https://discord.gg/evafame) and introduce yourself in the #artists channel.
 
 ### For Developers
-**Build the tools artists need:**
+**Build Bitcoin-native tools artists need:**
 
-- **Eva's AI Core**: Natural language processing, multi-modal interactions
-- **Cultural Adaptation**: Localization frameworks for different regions
-- **Platform Integration**: APIs for Instagram, TikTok, regional platforms
-- **Smart Contracts**: Blockchain copyright protection systems
-- **Community Tools**: Governance, voting, and collaboration features
+- **Eva's AI Core:** Natural language processing optimized for Lightning Network commerce and RGB smart contracts
+- **Lightning Network Integration:** Payment routing, channel management, and micropayment optimization for artists
+- **RGB Smart Contracts:** Bitcoin-native copyright protection and provenance tracking systems
+- **Cultural Adaptation:** Localization frameworks for global Bitcoin adoption by different artist communities
+- **Community Tools:** Governance systems using Lightning Network micropayments and Bitcoin-native voting
 
-**Get Started:** Check our [GitHub Issues](../../issues) labeled `good first issue` or `help wanted`.
+**Bitcoin Development Skills Needed:**
+- Lightning Network protocol development (BOLT specifications)
+- RGB smart contract development and testing
+- Bitcoin Layer 2 integration (Lightning, Liquid, Ordinals)
+- Cross-layer Bitcoin optimization and security auditing
+
+**Get Started:** Check our [GitHub Issues](../../issues) labeled `lightning-network`, `rgb-contracts`, or `bitcoin-layer2`.
 
 ### For Designers
 **Create artist-friendly interfaces:**
@@ -102,12 +108,22 @@ cd evafame-creative-chain
 # Install dependencies (when package.json exists)
 npm install
 
-# Set up environment variables
+# Set up Bitcoin testnet environment
 cp .env.example .env.local
+# Add your Bitcoin testnet configuration and Lightning Network credentials
 
 # Start development server (when implemented)
 npm run dev
+
+# Set up Lightning Network testnet node (optional for advanced contributors)
+# See docs/lightning-setup.md for detailed instructions
 ```
+
+**Bitcoin Development Prerequisites:**
+- Bitcoin Core testnet node (recommended) or access to reliable testnet API
+- Lightning Network testnet channels for payment testing
+- Basic understanding of RGB smart contracts and Bitcoin Layer 2 protocols
+- Familiarity with Lightning Network routing and channel management
 
 *Note: As we're in early development, some of these commands may not exist yet. Check the README for current setup instructions.*
 
