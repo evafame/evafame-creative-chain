@@ -1,28 +1,25 @@
 # Eva & Evafame | Creative Chain Ecosystem
 
-> *"Talent exists everywhere, but the tools to reach global markets don't."*
+> *"Talent exists everywhere, but the tools to reach global Bitcoin markets don't."*
 
-**Eva** is an open source AI marketing agent for independent artists and creators. Part of the **Evafame | Creative Chain ecosystem** - building community-owned alternatives to extractive creator platforms.
+**Eva** is an open source AI marketing agent for independent artists built on Bitcoin Layer 2 infrastructure. Part of the **Evafame | Creative Chain ecosystem** - building community-owned alternatives to extractive creator platforms using Bitcoin's censorship-resistant foundation.
 
-🌱 **Currently in Seed Phase** - Building community, conducting artist interviews, and developing the foundation for culturally-aware AI that serves artists, not platforms.
+🌱 **Currently in Seed Phase** - Building community, conducting artist interviews, and developing Bitcoin-native AI that serves artists through Lightning Network payments and RGB smart contracts.
 
 [![Open Source](https://img.shields.io/badge/Open%20Source-MIT-green)](LICENSE)
 [![Building in Public](https://img.shields.io/badge/Building-In%20Public-blue)](https://creativechain.substack.com)
+[![Bitcoin Native](https://img.shields.io/badge/Bitcoin-Layer%202-orange)](https://bitcoinlayer2.org)
 [![Community Driven](https://img.shields.io/badge/Community-Driven-purple)](https://discord.gg/evafame)
 
 ## 🌍 The Story Behind Eva
 
 This project was born from a moment in Turkey. I was sitting at a café when an elderly Turkish woman in traditional clothes approached, selling beautiful handmade crafts - intricate embroidery that clearly took days to create. As I watched her weathered hands holding these incredible pieces of art, I thought: *"This could've been my grandmother."*
 
-**Talent exists everywhere, but the tools to reach global markets don't.**
+**Talent exists everywhere, but the tools to reach global Bitcoin markets don't.**
 
-That woman was preserving centuries-old techniques and cultural knowledge, but she had no way to tell her story to the world, no AI assistant to help her create compelling content, no platform that understood and celebrated her cultural context.
+That woman was preserving centuries-old techniques and cultural knowledge, but she had no way to tell her story to the world, no AI assistant to help her create compelling content, no way to receive censorship-resistant payments for her work, and no platform that understood and celebrated her cultural context while providing true financial sovereignty.
 
-"That Turkish grandmother could receive Bitcoin payments instantly via Lightning, 
-no matter what her local banking situation is. Bitcoin's censorship resistance 
-means no platform can ever block her from selling her traditional crafts globally.
-
-This is why Eva exists - to be that bridge between local creativity and global opportunity.
+This is why Eva exists - to be that bridge between local creativity and the global Bitcoin economy.
 
 ## 🤖 What is Eva?
 
@@ -232,19 +229,19 @@ As we build Eva and the Evafame ecosystem, documentation will be added continuou
 
 Current creator platforms optimize for platform growth, not creator success. Artists worldwide face:
 
-- **Algorithmic suppression** - platforms hide content from artists' own followers
-- **Rising fees** - 20-50% total costs when including advertising for visibility
-- **Cultural homogenization** - one-size-fits-all approaches ignore local contexts
-- **No ownership protection** - artists have no say in platform decisions and no automatic copyright protection
-- **IP theft vulnerability** - no immutable proof of creation or ownership
+- **Payment Censorship** - platforms freeze accounts and block payments to artists
+- **Rising Fees** - 20-50% total costs when including payment processing and visibility advertising
+- **Cultural Homogenization** - one-size-fits-all approaches ignore local contexts and Bitcoin adoption barriers
+- **No Financial Sovereignty** - artists depend on traditional banking systems that discriminate against creators
+- **IP Theft Vulnerability** - no immutable proof of creation or Bitcoin-native ownership protection
 
 **Eva and Evafame change this by:**
 
-✅ **Artist-owned tools** - community governance, not corporate control  
-✅ **Cultural preservation** - respecting and celebrating local traditions  
-✅ **Fair economics** - sustainable models that benefit creators, not just platforms  
-✅ **Global accessibility** - bridging local creativity with worldwide opportunities  
-✅ **Automatic IP protection** - smart contracts ensure copyright from moment of creation  
+✅ **Bitcoin-native tools** - community governance with Lightning Network micropayments  
+✅ **Cultural preservation** - respecting traditions while enabling global Bitcoin commerce  
+✅ **Fair economics** - sustainable models using Bitcoin's deflationary properties  
+✅ **Global accessibility** - bridging local creativity with worldwide Bitcoin economy  
+✅ **Financial sovereignty** - RGB smart contracts and Lightning channels ensure true ownership  
 
 ## 📞 Connect With Us
 
