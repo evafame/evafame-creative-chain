@@ -1,268 +1,186 @@
-# Eva & Evafame | Creative Chain Ecosystem
+Eva & Evafame | Creative Chain Ecosystem
+AI Marketing Agent for Independent Artists & Creators
+🎯 Vision
+Eva is an open-source, audio-first AI agent designed to empower independent artists and creators, especially in rural areas with limited literacy or internet access. Built on Bitcoin’s Layer 2 infrastructure (Lightning Network and RGB smart contracts), Eva is part of the Evafame | Creative Chain ecosystem—a decentralized network enabling community-owned creator platforms worldwide. Our mission is to bridge local creativity with the global Bitcoin economy, ensuring financial sovereignty, cultural preservation, and regulatory compliance.
+🌱 Current Status: Seed PhaseWe’re building a no-code prototype, conducting artist interviews, and growing our community. Eva will use no-code tools like Voiceflow and ChainGPT to create an accessible, audio-driven platform for artists to sell work and protect IP.
+Open Source | Building in Public | Bitcoin Native | Community Driven
+🌍 The Story Behind Eva
+Inspired by an elderly Turkish woman selling handmade crafts, Eva addresses a critical gap: talent exists everywhere, but the tools to reach global Bitcoin markets don’t. Many artists, especially in rural areas, lack access to platforms that support audio-first interaction, censorship-resistant payments, or cultural adaptation. Eva empowers these creators with an AI assistant that speaks their language, protects their work, and connects them to the Bitcoin economy.
+🤖 What is Eva?
+Eva is an audio-first AI marketing agent tailored for independent artists. She’s the core of the Evafame ecosystem, enabling communities to create culturally adapted, artist-owned platforms. Key features (planned for MVP):
+🗣️ Audio-First Interaction
 
-> *"Talent exists everywhere, but the tools to reach global Bitcoin markets don't."*
+Voice commands in multiple languages (starting with Turkish, English)
+Speech-to-text and text-to-speech for non-literate users
+Offline capabilities via BitChat’s Bluetooth mesh network
 
-**Eva** is an open source AI marketing agent for independent artists built on Bitcoin Layer 2 infrastructure. Part of the **Evafame | Creative Chain ecosystem** - building community-owned alternatives to extractive creator platforms using Bitcoin's censorship-resistant foundation.
+🎨 Artist-Specific Intelligence
 
-🌱 **Currently in Seed Phase** - Building community, conducting artist interviews, and developing Bitcoin-native AI that serves artists through Lightning Network payments and RGB smart contracts.
+Understands creative workflows and cultural contexts
+Learns individual artist styles and audience preferences
+Supports rural artists with limited internet access
 
-[![Open Source](https://img.shields.io/badge/Open%20Source-MIT-green)](LICENSE)
-[![Building in Public](https://img.shields.io/badge/Building-In%20Public-blue)](https://creativechain.substack.com)
-[![Bitcoin Native](https://img.shields.io/badge/Bitcoin-Layer%202-orange)](https://bitcoinlayer2.org)
-[![Community Driven](https://img.shields.io/badge/Community-Driven-purple)](https://discord.gg/evafame)
+🔒 Automatic Copyright Protection
 
-## 🌍 The Story Behind Eva
+Timestamps artwork ownership using RGB smart contracts
+Stores metadata on decentralized platforms (e.g., IPFS)
+Complies with regional IP laws (e.g., GDPR in Europe)
 
-This project was born from a moment in Turkey. I was sitting at a café when an elderly Turkish woman in traditional clothes approached, selling beautiful handmade crafts - intricate embroidery that clearly took days to create. As I watched her weathered hands holding these incredible pieces of art, I thought: *"This could've been my grandmother."*
+🌐 Cultural Adaptation
 
-**Talent exists everywhere, but the tools to reach global Bitcoin markets don't.**
+Region-specific platforms (e.g., Evafame Türkiye, Deutschland)
+Adapts to local regulations, payment systems, and traditions
+Preserves cultural heritage while enabling global reach
 
-That woman was preserving centuries-old techniques and cultural knowledge, but she had no way to tell her story to the world, no AI assistant to help her create compelling content, no way to receive censorship-resistant payments for her work, and no platform that understood and celebrated her cultural context while providing true financial sovereignty.
+🤝 Community Ownership
 
-This is why Eva exists - to be that bridge between local creativity and the global Bitcoin economy.
+Open-source and community-governed
+Artists and regional coordinators shape features
+Transparent decision-making via Discord and GitHub
 
-## 🤖 What is Eva?
+🏗️ Current Status: Seed Phase
+What’s Happening Now:
 
-**Eva** is an open source AI marketing agent specifically designed for independent artists and creators. She's the core of the **Evafame | Creative Chain ecosystem** - a decentralized network that enables communities worldwide to create their own culturally-adapted, artist-owned creator platforms.
+📋 Conducting 20+ artist interviews (aiming for 50+) across Turkey, Germany, US
+💬 Building community via Discord and newsletter (creativechain.substack.com)
+🎯 Developing no-code MVP with Voiceflow, ChainGPT, and Zapier
+💰 Applied for Goose Grant to fund development
+📝 Documenting progress in public
 
-### Eva's Capabilities (Planned)
+Next Milestones:
 
-🗣️ **Multi-Modal Interaction**
-- Voice conversations in multiple languages
-- Image analysis and artwork understanding
-- Natural language content strategy discussions
+Build no-code prototype (audio-first payments, IP protection)
+Support one language (Turkish) for Evafame Türkiye
+Test offline payments with BitChat
+Establish core contributor community (non-coders, developers)
+Deploy first regional platform (Turkey)
 
-🎨 **Artist-Specific Intelligence**
-- Trained on creative workflows, not generic marketing
-- Understands artistic terminology and cultural contexts
-- Learns individual artist style and audience preferences
+🌍 The Vision: Global but Local
+Instead of one platform, we’re creating infrastructure for thousands of local, community-owned creator platforms. Planned implementations:
 
-🔒 **Automatic Copyright Protection**
-- Smart contracts create immutable proof of creation timestamp
-- Blockchain-based ownership certificates for all artwork
-- Protection against unauthorized use and IP theft
-- Transparent provenance tracking for collectors and galleries
+🇹🇷 Evafame Türkiye: Turkish-speaking, supports rural artists, integrates local payments
+🇩🇪 Evafame Deutschland: GDPR-compliant, connects to German art institutions
+🇺🇸 Evafame USA: Fair use-compliant, links to US gallery networks
+🌏 More Regions: Community-driven expansion (e.g., BRICS countries)
 
-🌐 **Cultural Adaptation**
-- Respects local art traditions and cultural nuances
-- Adapts to regional market preferences and legal frameworks
-- Preserves cultural heritage while enabling global reach
-- Automatic compliance with local copyright and IP laws
-
-🤝 **Community Ownership**
-- Open source and community-governed
-- Democratic decision-making on features and development
-- No extraction - artists own their tools and data
-
-## 🏗️ Current Status: Seed Phase
-
-**What's Happening Now:**
-- 📋 Conducting artist interviews (20+ completed across multiple countries)
-- 💬 Building community through Discord and newsletter
-- 🎯 Developing technical architecture and cultural framework
-- 💰 Applied for Goose Grant to accelerate development
-- 📝 Building in public - documenting the entire journey
-
-**Next Milestones:**
-- [ ] Complete 50+ artist interviews for needs analysis
-- [ ] Establish core contributor community (5-10 developers)
-- [ ] Build Eva's first prototype (basic conversational AI)
-- [ ] Deploy first regional community platform (Germany)
-
-## 🌍 The Vision: Global but Local
-
-Instead of building "another creator platform," we're creating the **infrastructure for a thousand local creator platforms**.
-
-### Regional Implementations (Planned)
-
-**🇹🇷 Evafame Türkiye**
-- Eva speaks Turkish and understands traditional craft terminology
-- Integration with local payment systems and cultural organizations
-- Support for rural artists with limited internet infrastructure
-
-**🇩🇪 Evafame Deutschland**
-- GDPR-compliant and integrated with German creative economy
-- Understanding of local gallery systems and art market dynamics
-- Connection to art schools and cultural institutions
-
-**🇺🇸 Evafame USA**
-- Fair Use copyright integration and state-specific business support
-- Connection to US gallery networks and collector communities
-- American cultural context and communication styles
-
-**🌏 More Regions**
-- Community-driven expansion to France, UK, and beyond
-- Each region adapted for local culture, language, and legal frameworks
-
-## 🛠️ Technical Architecture (Planned)
-
-### Core Components
-
-```
+🛠️ Technical Architecture (Planned)
+Core Components
 ┌─────────────────┐    ┌─────────────────┐    ┌─────────────────┐
-│   Artist Input  │───▶│   Eva's Brain   │───▶│  Action Output  │
-│ Voice/Image/Text│    │ Cultural Context│    │Marketing Content│
+│ Artist Audio    │───▶│ Eva’s AI Brain  │───▶│ Action Output   │
+│ Voice Commands  │    │ Voiceflow/Zapier│    │ Payments/IP     │
 └─────────────────┘    └─────────────────┘    └─────────────────┘
                                 │
                                 ▼
                        ┌─────────────────┐
-                       │ Eva's Learning  │
                        │ Community Input │
+                       │ Artist Feedback │
                        └─────────────────┘
-```
 
-**Eva's Core (AI Agent)**
-- Multi-modal input processing
-- Artist workflow understanding
-- Cultural context awareness
-- Continuous learning from community feedback
-- **Automatic smart contract deployment for copyright protection**
+Eva’s Core (AI Agent):
 
-**Evafame Ecosystem (Platform Framework)**
-- Cultural adaptation modules
-- Legal compliance frameworks
-- Community governance tools
-- Regional platform SDK
-- **Blockchain integration for IP protection and provenance**
+Audio processing via Voiceflow (speech-to-text, text-to-speech)
+Lightning Network payments via custodial wallets (e.g., Wallet of Satoshi)
+RGB smart contracts for IP protection (via ChainGPT)
+Offline transaction relay via BitChat’s Bluetooth mesh
 
-**Creative Chain (Network Layer)**
-- Cross-platform interoperability
-- Artist identity and reputation system
-- Collaborative tools and resource sharing
-- **Immutable copyright registry and ownership tracking**
+Evafame Ecosystem (Platform Framework):
 
-## 🤝 Community & Governance
+No-code platform with Bubble or Adalo
+Regional compliance modules (e.g., KYC, GDPR)
+Community governance via Discord voting
+Decentralized storage (IPFS) for artwork metadata
 
-### How We Work Together
+Creative Chain (Network Layer):
 
-**🎨 Artist Community**
-- Share workflows and pain points to train Eva
-- Test prototypes and provide feedback
-- Vote on feature priorities and development direction
-- Cultural ambassadors for regional adaptations
+Cross-platform interoperability
+Artist identity and reputation system
+Immutable copyright registry via RGB
 
-**👩‍💻 Developer Community**
-- Contribute to Eva's AI development and platform tools
-- Build regional adaptations and integrations
-- Maintain documentation and support systems
-- Technical mentorship for new contributors
+🤝 Community & Governance
+How We Work Together
 
-**🌍 Regional Coordinators**
-- Lead cultural adaptation for specific countries/regions
-- Build local partnerships with art institutions
-- Manage community building and artist onboarding
-- Ensure Eva respects and preserves local traditions
+Artists: Share workflows, test prototypes, provide cultural feedback
+Non-Coders: Contribute via no-code platforms, test UX, gather requirements
+Developers: Build integrations (Lightning, RGB, BitChat), maintain tools
+Regional Coordinators: Lead cultural adaptations, ensure compliance
 
-### Decision Making
-- **Transparent governance** - all decisions tracked publicly
-- **Community voting** on major features and directions
-- **Regional autonomy** - local communities control their adaptations
-- **Consensus building** - collaboration over competition
+Decision Making
 
-## 📚 Documentation & Resources
+Transparent governance via GitHub Issues and Discord
+Community voting on features and priorities
+Regional autonomy for local adaptations
 
-### 🏗️ Coming Soon (Building in Public)
-As we build Eva and the Evafame ecosystem, documentation will be added continuously. Follow our progress:
+📚 Documentation & Resources
+🏗️ Coming Soon
 
-**Planned Documentation:**
-- 📋 **Artist Interview Insights** - What we're learning from 20+ artist conversations
-- 🏛️ **Technical Architecture** - How Eva and Evafame will work together  
-- 🌍 **Cultural Framework** - Preserving heritage while enabling global reach
-- 🤝 **Community Governance** - How we make decisions together
-- 🛠️ **Contributing Guidelines** - How to get involved at any skill level
+📋 Artist Interview Insights: Lessons from 50+ interviews
+🏛️ Technical Architecture: No-code and blockchain integration details
+🌍 Compliance Framework: Adapting to regional laws
+🤝 Contributing Guidelines: How to join as a non-coder or developer
+🛠️ Prototype Examples: Audio-first payment and IP protection workflows
 
-**Planned Examples:**
-- 💬 **Eva Conversation Examples** - How artists will interact with Eva
-- 🎨 **Cultural Adaptation Cases** - Regional customization examples
-- 🔗 **Integration Scenarios** - How Eva connects with existing tools
-- 🔒 **Smart Contract Templates** - Automatic copyright protection examples
+📖 Current Resources
 
-### 📖 Current Resources
-- **Building Log**: [creativechain.substack.com](https://creativechain.substack.com) - Weekly progress updates
-- **Community Discussions**: [Discord Server](https://discord.gg/evafame) - Real-time collaboration
-- **Artist Interviews**: Currently conducting, insights being compiled
-- **Technical Planning**: Architecture decisions documented in issues and discussions
+Building Log: creativechain.substack.com (weekly updates)
+Community: Discord Server (real-time collaboration)
+Interviews: Compiling insights from 20+ artists
+Technical Planning: Documented in GitHub Issues
 
-*📝 Note: All documentation will be added as we build. Star this repo to stay updated!*
+📝 Note: Star this repo to stay updated!
+🚀 Get Involved
+🎨 For Artists
 
-## 🚀 Get Involved
+Share your challenges and workflows via interviews
+Join Discord to test prototypes and provide feedback
+Help Eva understand your local art scene
 
-### 🎨 For Artists
-- **Share Your Story**: Tell us about your platform frustrations and workflow challenges
-- **Join the Community**: [Discord Server](https://discord.gg/evafame) for discussions and feedback
-- **Beta Testing**: Be among the first to work with Eva when ready
-- **Cultural Input**: Help Eva understand your local art scene and traditions
+👩‍💻 For Non-Coders
 
-### 👩‍💻 For Developers
-- **Watch This Repo**: Stay updated on development progress
-- **Read the Architecture**: Understand how Eva's AI and cultural systems work
-- **Join Development**: Contribute to AI training, platform tools, or regional adaptations
-- **Technical Mentorship**: Help guide architecture decisions and best practices
+Use no-code tools (Voiceflow, Bubble) to build features
+Test audio interfaces and provide UX feedback
+Gather regulatory insights for your region
 
-### 🌍 For Community Leaders
-- **Regional Coordination**: Lead Evafame adaptation for your country/culture
-- **Partnership Building**: Connect with local art institutions and cultural organizations
-- **Community Building**: Help artists in your region discover and use Eva
-- **Cultural Preservation**: Ensure Eva respects and celebrates local traditions
+👨‍💻 For Developers
 
-### 💰 For Supporters
-- **Spread the Word**: Share Eva's story with artists and developers who might be interested
-- **Financial Support**: Consider supporting through grants, donations, or sponsorship
-- **Institutional Partnerships**: Connect us with art schools, galleries, and cultural organizations
-- **Expertise Sharing**: Legal, business, or technical advice for sustainable growth
+Contribute to Lightning, RGB, or BitChat integrations
+Guide no-code architecture decisions
+Join via GitHub or Discord
 
-## 📈 Current Metrics
+🌍 For Community Leaders
 
-**Community Building:**
-- 20+ Artist interviews completed (Germany, Turkey, US, France)
-- Growing Discord community of artists and developers
-- Weekly newsletter documenting building-in-public journey
-- GitHub watchers and community engagement
+Lead regional adaptations (e.g., Evafame Türkiye)
+Build partnerships with art institutions
+Ensure cultural preservation and compliance
 
-**Development Progress:**
-- Technical architecture defined and documented
-- Cultural adaptation framework established
-- Community governance model designed
-- Grant applications submitted for funding acceleration
+💰 For Supporters
 
-## 🎯 Why This Matters
+Spread the word on X or to artist networks
+Support via grants or sponsorships
+Share legal or technical expertise
 
-Current creator platforms optimize for platform growth, not creator success. Artists worldwide face:
+📈 Current Metrics
 
-- **Payment Censorship** - platforms freeze accounts and block payments to artists
-- **Rising Fees** - 20-50% total costs when including payment processing and visibility advertising
-- **Cultural Homogenization** - one-size-fits-all approaches ignore local contexts and Bitcoin adoption barriers
-- **No Financial Sovereignty** - artists depend on traditional banking systems that discriminate against creators
-- **IP Theft Vulnerability** - no immutable proof of creation or Bitcoin-native ownership protection
+Community: 20+ artist interviews, growing Discord
+Development: No-code MVP in progress, architecture defined
+Engagement: Weekly newsletter, GitHub watchers
 
-**Eva and Evafame change this by:**
+🎯 Why This Matters
+Current platforms extract 20–50% fees, censor payments, and ignore cultural contexts. Eva offers:
 
-✅ **Bitcoin-native tools** - community governance with Lightning Network micropayments  
-✅ **Cultural preservation** - respecting traditions while enabling global Bitcoin commerce  
-✅ **Fair economics** - sustainable models using Bitcoin's deflationary properties  
-✅ **Global accessibility** - bridging local creativity with worldwide Bitcoin economy  
-✅ **Financial sovereignty** - RGB smart contracts and Lightning channels ensure true ownership  
+✅ Bitcoin-Native Tools: Lightning payments, RGB contracts
+✅ Cultural Preservation: Region-specific adaptations
+✅ Fair Economics: Low-cost, artist-owned platforms
+✅ Accessibility: Audio-first for non-literate users
+✅ Compliance: Modular frameworks for local laws
 
-## 📞 Connect With Us
+📄 License
+MIT License (see LICENSE file).
+🙏 Acknowledgments
 
-- **Newsletter**: [creativechain.substack.com](https://creativechain.substack.com) - Weekly building-in-public updates
-- **Discord**: [Join Community](https://discord.gg/evafame) - Real-time discussions and collaboration
-- **Email**: [hello@evafame.com](mailto:hello@evafame.com) - Direct communication
-- **Social**: Follow our journey on social platforms
+Artists sharing their stories
+Turkish grandmother who inspired Eva
+Open-source and Bitcoin communities
+Goose ecosystem for AI agent support
 
-## 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## 🙏 Acknowledgments
-
-- **Artists worldwide** who shared their stories and struggles
-- **The Turkish grandmother** whose story inspired this journey
-- **Open source community** for showing that collaborative development works
-- **Goose ecosystem** for supporting innovative AI agent development
-
----
-
-*"Talent exists everywhere, but opportunity doesn't. Eva changes that."*
-
-**[⭐ Star this repo](../../stargazers) if you believe artists deserve better tools!**
+"Talent exists everywhere, but opportunity doesn’t. Eva changes that."
+⭐ Star this repo to support artists!
