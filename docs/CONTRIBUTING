@@ -1,319 +1,77 @@
-# Contributing to Eva & Evafame
+Contributing to Eva & Evafame | Creative Chain Ecosystem
+Thank you for your interest in Eva, an audio-first AI assistant for independent artists built on Bitcoin’s Layer 2. We’re in the Seed Phase, building a no-code prototype and welcoming contributions from artists, non-coders, developers, and community leaders. No coding experience is required—everyone can help shape Eva!
 
-Welcome to the Eva & Evafame community! We're building Bitcoin-native AI tools that truly serve artists, and we need your help to make it happen.
+🎯 Our Vision
+Eva empowers artists, especially in rural areas, to sell work and protect IP using Bitcoin’s Lightning Network, RGB smart contracts, and BitChat for offline access. We’re building a community-owned, culturally adapted ecosystem with no-code tools like Voiceflow and ChainGPT.
+🤝 How to Contribute
+🎨 For Artists
+Your creative perspective is vital to shaping Eva. Here’s how you can help:
 
-## 🤝 Before You Start
+Share Your Story: Join our artist interviews via Google Forms (linked in our X updates at @evafame) or send us a direct message on X. Share your creative process, challenges with selling art (e.g., high platform fees), or frustrations with complex tools. For example, tell us how you price your paintings or manage sales at local markets.
+Test Prototypes: Try our no-code MVP, which supports audio-first payments (e.g., saying “Pay 500 sats for my artwork”) and IP protection. Test it on your phone and record a short voice note about what’s intuitive or confusing, especially if you’re in a rural area or prefer non-text interfaces. Share feedback via X or Google Forms.
+Cultural Input: Help Eva reflect your local art scene. Share terms like “nakış” (embroidery in Turkey) or traditions like community art fairs in Germany. Submit ideas via Google Forms or X to ensure Eva’s voice commands and features respect your culture and language.
 
-### Read Our Bitcoin-Native Commitment
+👩‍💻 For Non-Coders
 
-**All contributors must read and agree to our [Bitcoin-Native Open Source Commitment Manifest](MANIFEST.md).** This ensures Eva remains community-owned forever, operates on Bitcoin's censorship-resistant infrastructure, and serves artists' financial sovereignty above all else.
+Build Features: Use no-code platforms (Voiceflow, Bubble, Zapier) to create audio workflows, payment integrations, or compliance modules.
+Test UX: Test the prototype’s audio interface on your phone or computer and report issues via GitHub or direct message on X.
+Gather Requirements: Collect regulatory or cultural insights from your region (e.g., GDPR in Europe) using Google Forms or Airtable.
+Spread the Word: Share Eva on X or with artist communities to grow our reach.
 
-**By contributing to this project, you acknowledge that you have read, understood, and agree to uphold the Bitcoin-sovereign principles outlined in our Manifest.**
+👨‍💻 For Developers
 
-### Sign the Manifest
+Integrate Blockchain: Contribute to Lightning Network payments, RGB smart contracts, or BitChat’s offline transaction relay.
+Enhance AI: Improve audio processing (speech-to-text, NLP) using open-source libraries (e.g., DeepSpeech, Hugging Face).
+Guide No-Code: Advise on Voiceflow or Bubble workflows for non-coders.
+Maintain Docs: Update technical documentation or prototype examples.
 
-We encourage all contributors to explicitly sign the Manifest by:
+🌍 For Community Leaders
 
-1. **Fork this repository**
-2. **Add your name to the Contributors section in [MANIFEST.md](MANIFEST.md)**
-3. **Submit a Pull Request with your signature**
+Lead Regional Efforts: Coordinate adaptations for your country (e.g., Evafame Türkiye, Deutschland).
+Build Partnerships: Connect with local art institutions or NGOs to support compliance and onboarding.
+Engage Communities: Recruit artists and testers via local networks or social media.
 
-**Format:** `- [Your Name] - [Date] - [Role: Developer/Artist/Designer/Regional Coordinator]`
+🛠️ Getting Started
 
-*Note: Signing is encouraged but not required. By contributing, you implicitly agree to the Manifest terms.*
+Join the Community:
+Discord: Server coming soon! For now, connect with us on X (@evafame), via email (hello@evafame.com), or through Google Forms (linked in our X updates).
+Newsletter: creativechain.substack.com
+X: Follow @evafame for updates
 
----
 
-## 🎨 Ways to Contribute
+Star & Watch the Repo: Stay updated on GitHub.
+Start Contributing:
+For Non-Coders: Use no-code platforms to build features or test prototypes:
+Voiceflow (voiceflow.com): Create audio-first workflows.
+Bubble (bubble.io): Build web/mobile apps for artist dashboards.
+ChainGPT (chaingpt.org): Generate smart contracts easily.
+Zapier (zapier.com): Automate tasks like connecting payment APIs.
 
-### For Artists
-**Help shape Eva to serve your needs:**
 
-- **Share Your Story**: Tell us about your platform frustrations and workflow challenges
-- **Join Interviews**: Participate in our ongoing research (20+ artists interviewed so far)
-- **Beta Testing**: Try early versions of Eva and provide feedback
-- **Cultural Input**: Help Eva understand your local art scene and traditions
-- **Community Building**: Invite other artists who might benefit from community-owned tools
+Check tutorials on each platform’s website or ask for guidance on X or via email.
 
-**Get Started:** Join our [Discord](https://discord.gg/evafame) and introduce yourself in the #artists channel.
 
-### For Developers
-**Build Bitcoin-native tools artists need:**
+Check Issues: Find tasks (e.g., “Test audio commands” or “Add Turkish translations”) on GitHub Issues.
+Submit Contributions:
+Non-coders: Share feedback, designs, or no-code prototypes via X, email, or GitHub Issues.
+Developers: Fork the repo, create a branch, and submit a pull request.
+Artists: Submit interview responses or test feedback via Google Forms.
 
-- **Eva's AI Core:** Natural language processing optimized for Lightning Network commerce and RGB smart contracts
-- **Lightning Network Integration:** Payment routing, channel management, and micropayment optimization for artists
-- **RGB Smart Contracts:** Bitcoin-native copyright protection and provenance tracking systems
-- **Cultural Adaptation:** Localization frameworks for global Bitcoin adoption by different artist communities
-- **Community Tools:** Governance systems using Lightning Network micropayments and Bitcoin-native voting
 
-**Bitcoin Development Skills Needed:**
-- Lightning Network protocol development (BOLT specifications)
-- RGB smart contract development and testing
-- Bitcoin Layer 2 integration (Lightning, Liquid, Ordinals)
-- Cross-layer Bitcoin optimization and security auditing
 
-**Get Started:** Check our [GitHub Issues](../../issues) labeled `lightning-network`, `rgb-contracts`, or `bitcoin-layer2`.
+📋 Contribution Guidelines
 
-### For Designers
-**Create artist-friendly interfaces:**
+Be Respectful: Foster a collaborative, inclusive environment.
+Stay Aligned: Focus on audio-first, Bitcoin-native, and compliant features.
+Document Everything: Add notes to GitHub Issues or README for transparency.
+Test Thoroughly: Ensure prototypes work for non-literate users and low-bandwidth environments.
 
-- **UI/UX Design**: Interface mockups for Eva and Evafame platforms
-- **Brand Identity**: Visual systems that celebrate artistic diversity
-- **Cultural Sensitivity**: Design patterns that respect different cultural contexts
-- **Accessibility**: Ensure tools work for artists with different abilities
-- **Documentation Design**: Make technical information artist-friendly
+📚 Resources
 
-**Get Started:** Look for issues labeled `design` or `ui/ux`.
+Building Log: creativechain.substack.com
+Technical Docs: See README and upcoming documentation
+No-Code Tutorials: Check Voiceflow, Bubble, Zapier, and ChainGPT websites for beginner-friendly guides
+Bitcoin Dev: Lightning Network docs (docs.lightning.network), RGB protocol (rgb-org.github.io)
 
-### for Regional Coordinators
-**Build local artist communities:**
-
-- **Cultural Adaptation**: Help Eva understand your region's art scene
-- **Community Building**: Connect with local artists and art institutions
-- **Language Support**: Assist with translations and cultural context
-- **Partnership Development**: Build relationships with galleries, schools, and cultural organizations
-- **Local Feedback**: Collect and synthesize regional artist needs
-
-**Get Started:** Email [hello@evafame.com](mailto:hello@evafame.com) with your interest and regional background.
-
-### for Writers & Researchers
-**Document and share knowledge:**
-
-- **Technical Documentation**: API guides, architecture explanations
-- **Artist Resources**: Tutorials, best practices, case studies
-- **Cultural Research**: Document artistic traditions and market contexts
-- **Community Stories**: Interview artists and share success stories
-- **Academic Partnerships**: Connect us with creator economy researchers
-
-**Get Started:** Check issues labeled `documentation` or `research`.
-
----
-
-## 🛠️ Development Process
-
-### Setting Up Development Environment
-
-**Prerequisites:**
-- Node.js 18+ and npm/yarn
-- Git and GitHub account
-- Basic understanding of React/Next.js (for frontend contributions)
-- Python 3.8+ (for AI/ML contributions)
-
-**Local Setup:**
-```bash
-# Clone the repository
-git clone https://github.com/[username]/evafame-creative-chain.git
-cd evafame-creative-chain
-
-# Install dependencies (when package.json exists)
-npm install
-
-# Set up Bitcoin testnet environment
-cp .env.example .env.local
-# Add your Bitcoin testnet configuration and Lightning Network credentials
-
-# Start development server (when implemented)
-npm run dev
-
-# Set up Lightning Network testnet node (optional for advanced contributors)
-# See docs/lightning-setup.md for detailed instructions
-```
-
-**Bitcoin Development Prerequisites:**
-- Bitcoin Core testnet node (recommended) or access to reliable testnet API
-- Lightning Network testnet channels for payment testing
-- Basic understanding of RGB smart contracts and Bitcoin Layer 2 protocols
-- Familiarity with Lightning Network routing and channel management
-
-*Note: As we're in early development, some of these commands may not exist yet. Check the README for current setup instructions.*
-
-### Making Contributions
-
-**1. Find or Create an Issue**
-- Check existing [issues](../../issues) for something you'd like to work on
-- For new features, create an issue first to discuss with the community
-- Use issue templates to provide necessary context
-
-**2. Fork and Branch**
-```bash
-# Fork the repository on GitHub, then:
-git clone https://github.com/[your-username]/evafame-creative-chain.git
-cd evafame-creative-chain
-
-# Create a feature branch
-git checkout -b feature/your-feature-name
-```
-
-**3. Develop and Test**
-- Follow existing code style and conventions
-- Add tests for new functionality where possible
-- Test your changes thoroughly before submitting
-- Document any new features or API changes
-
-**4. Submit Pull Request**
-- Push your branch to your fork
-- Create a Pull Request with clear description
-- Reference any related issues
-- Be responsive to code review feedback
-
-### Code Style Guidelines
-
-**General Principles:**
-- **Artist-First**: Code should serve artists' needs, not developer convenience
-- **Cultural Sensitivity**: Avoid assumptions about global users
-- **Accessibility**: Consider artists with different abilities and technical skills
-- **Performance**: Remember that some artists have slower internet connections
-- **Privacy**: Protect artist data as if it were your own creative work
-
-**Technical Standards:**
-- Use TypeScript for type safety
-- Follow existing naming conventions
-- Add JSDoc comments for public APIs
-- Keep functions small and focused
-- Write self-documenting code where possible
-
-### Testing
-
-**Current Testing Approach:**
-- Manual testing with artist community members
-- Feedback collection through Discord and interviews
-- Performance testing with different internet speeds
-- Cultural sensitivity review by regional coordinators
-
-**Future Testing Framework:**
-- Unit tests for core AI functionality
-- Integration tests for platform APIs
-- End-to-end tests for artist workflows
-- Cultural adaptation testing with community input
-
----
-
-## 💬 Community Guidelines
-
-### Communication Standards
-
-**Be Respectful:**
-- Honor different artistic traditions and cultural backgrounds
-- Use inclusive language and avoid assumptions
-- Listen to artist needs even if you don't understand the creative process
-- Acknowledge that art is personal and cultural, not just commercial
-
-**Be Constructive:**
-- Focus on solutions that serve artists better
-- Provide specific, actionable feedback
-- Ask questions if you don't understand artist workflows
-- Share knowledge and resources generously
-
-**Be Patient:**
-- Artists and developers have different vocabularies and priorities
-- Cultural adaptation takes time and community input
-- Consensus-building is slower but creates better outcomes
-- Some contributors are learning new skills while participating
-
-### Conflict Resolution
-
-**Community Issues:**
-1. **Direct Communication**: Try to resolve issues privately first
-2. **Community Mediation**: Involve community moderators if needed
-3. **Governance Process**: Use democratic processes for major disputes
-4. **Appeal Rights**: Community can appeal moderator decisions
-
-**Technical Disagreements:**
-1. **Issue Discussion**: Use GitHub issues for technical debates
-2. **Community Input**: Ask artists how different approaches would affect them
-3. **Prototype and Test**: Build small demos to test different approaches
-4. **Community Vote**: For major architectural decisions, let community decide
-
----
-
-## 🎯 Current Priorities
-
-### Immediate Needs (Next 30 Days)
-- [ ] Complete artist interview program (target: 50+ interviews)
-- [ ] Set up basic development infrastructure
-- [ ] Create Eva's first conversational prototype
-- [ ] Establish Discord community moderation and structure
-- [ ] Document cultural adaptation requirements for initial regions
-
-### Short-Term Goals (Next 3 Months)
-- [ ] Launch Eva's core AI agent functionality
-- [ ] Build basic cultural adaptation framework
-- [ ] Establish community governance processes
-- [ ] Create artist onboarding and feedback systems
-- [ ] Develop smart contract copyright protection
-
-### Long-Term Vision (Next 12 Months)
-- [ ] Deploy first regional platform (Evafame Deutschland)
-- [ ] Expand to Turkey and US markets
-- [ ] Establish sustainable economic model
-- [ ] Create framework for unlimited regional expansion
-- [ ] Demonstrate successful community governance at scale
-
----
-
-## 📞 Getting Help
-
-### For Contributors
-- **Discord**: [Join our community](https://discord.gg/evafame) for real-time help
-- **GitHub Discussions**: For longer-form technical discussions
-- **Issues**: For specific bugs or feature requests
-- **Email**: [hello@evafame.com](mailto:hello@evafame.com) for private matters
-
-### For Artists
-- **Discord #artists Channel**: Connect with other artists and share experiences
-- **Interview Program**: Sign up for one-on-one conversations about your needs
-- **Newsletter**: [creativechain.substack.com](https://creativechain.substack.com) for weekly updates
-- **Community Calls**: Monthly virtual meetups (announced in Discord)
-
-### Documentation and Resources
-- **Technical Docs**: [docs/](docs/) folder (being developed)
-- **Artist Resources**: [examples/](examples/) folder (being developed)
-- **Cultural Guidelines**: [MANIFEST.md](MANIFEST.md) community principles
-- **Building Log**: [Substack newsletter](https://creativechain.substack.com) for progress updates
-
----
-
-## 🙏 Recognition
-
-We believe in recognizing all forms of contribution to our community:
-
-### Contributor Recognition
-- **Code Contributors**: Listed in repository contributors
-- **Community Contributors**: Featured in newsletter and community highlights  
-- **Cultural Advisors**: Special recognition for preserving artistic traditions
-- **Regional Coordinators**: Leadership roles in local communities
-- **Artist Partners**: Credited for shaping Eva's development through their input
-
-### Annual Community Recognition
-- **Community Choice Awards**: Artists vote for most helpful contributors
-- **Cultural Preservation Award**: Recognizing efforts to maintain artistic traditions
-- **Innovation Award**: For creative solutions that serve artists better
-- **Mentorship Award**: For helping new community members get involved
-
----
-
-## 📝 Legal Notes
-
-### Contributor License Agreement
-
-By contributing to Eva & Evafame, you agree that:
-
-- **Your contributions are your own work** or you have permission to contribute them
-- **You grant the community perpetual rights** to use your contributions under our open source licenses
-- **You have read and agree to our [Open Source Commitment Manifest](MANIFEST.md)**
-- **You will not contribute anything that violates others' copyrights or intellectual property**
-
-### Intellectual Property
-
-- **Code Contributions**: Licensed under MIT License
-- **Documentation**: Licensed under Creative Commons Attribution 4.0
-- **Design Assets**: Licensed under Creative Commons Attribution 4.0 unless otherwise specified
-- **Cultural Knowledge**: Shared respectfully with permission from source communities
-
----
-
-*Thank you for helping build tools that truly serve artists!*
-
-**Questions?** Don't hesitate to reach out - we're here to help you contribute successfully.
-
-**Ready to get started?** Join our [Discord](https://discord.gg/evafame) and introduce yourself!
+🙏 Thank You
+Every contribution—big or small—helps artists worldwide. Let’s build Eva together!
