@@ -1,0 +1,86 @@
+Eva MVP Specification
+This document outlines the Minimal Viable Product (MVP) for Eva, an audio-first AI assistant for independent artists. The MVP is built using no-code tools to enable a non-coder to create and test it, focusing on Bitcoin-native payments, basic IP protection, and accessibility for non-literate users.
+🎯 Goals
+
+Enable artists to sell work via audio commands using Bitcoin’s Lightning Network.
+Provide basic IP protection with mock smart contracts or database storage.
+Support one language (Turkish) for audio interaction.
+Test offline capabilities with BitChat (mocked for now).
+Ensure compatibility with regional regulations (e.g., Turkey).
+
+🛠️ Scope
+1. Audio-First Payment
+
+Feature: Artists say, “Sell my artwork for $5,” and Eva generates a Lightning invoice with audio feedback (“Payment link created”).
+Tools:
+Adalo: Build audio workflow (free tier for basic mobile app integration).
+AssemblyAI: Speech-to-text (free tier, 100 minutes/month).
+gTTS: Audio responses via free Python-based Google Text-to-Speech library (integrated via Zapier).
+Wallet of Satoshi API: Custodial Lightning wallet for invoice creation (free on testnet).
+
+
+Inputs: Voice command, artwork price.
+Outputs: QR code or payment link, audio confirmation.
+Test Environment: Bitcoin testnet (Polar).
+
+2. Basic IP Protection
+
+Feature: Artists say, “Protect my artwork,” and Eva stores a hash of the artwork (image/description) with a timestamp in a mock database or RGB contract.
+Tools:
+ChainGPT: Generate mock smart contract (free tier).
+Airtable: Store metadata as placeholder (free tier, 1,200 records/base).
+IPFS (optional): Decentralized storage for artwork hashes (free via public nodes, e.g., Infura).
+
+
+Inputs: Artwork image or description (via no-code form).
+Outputs: Confirmation of ownership (audio or text).
+Compliance: GDPR-compliant for Europe (minimal data storage).
+
+3. Multilingual Support
+
+Feature: Process audio commands in Turkish for Evafame Türkiye.
+Tools:
+AssemblyAI: Multilingual speech-to-text (free tier).
+Adalo: Configure Turkish commands (e.g., “Satış yap” for “Sell”) (free tier).
+
+
+Inputs: Turkish voice commands.
+Outputs: Audio responses in Turkish.
+
+4. Offline Capability (Mocked)
+
+Feature: Cache audio commands locally and sync when internet is available (mock for BitChat integration).
+Tools:
+Adalo: Build web/mobile app to cache commands (free tier).
+Zapier: Simulate offline sync with delayed API calls (free tier, 100 tasks/month).
+
+
+Inputs: Voice commands (cached locally).
+Outputs: Confirmation when synced.
+
+📝 Development Notes
+
+The development process for Eva’s MVP is designed to be flexible, especially in the early stages, to allow for iterative changes. Software tools (e.g., no-code platforms, APIs) must be free or offer free tiers to accommodate a zero-budget constraint. Tools may be updated or replaced as new requirements emerge or better-suited free platforms are identified. All changes will be documented in this specification to ensure transparency and alignment.
+
+📋 Requirements
+
+No-Code Platforms: Adalo (free tier), Zapier (free tier, 100 tasks/month), ChainGPT (free tier), Airtable (free tier, 1,200 records/base). Note: All tools must be free or offer free tiers to support zero-budget development. Software may change during development to accommodate new requirements or better-suited free platforms, with updates documented in this specification.
+APIs: AssemblyAI (speech-to-text, free tier), gTTS (free text-to-speech), Wallet of Satoshi (free on testnet).
+Hardware: Smartphone or laptop for testing.
+Testnet: Bitcoin testnet for Lightning payments.
+Timeline: 2–3 months for prototype development.
+
+📈 Success Metrics
+
+Artists can complete a payment via audio command in <30 seconds.
+IP protection workflow stores metadata reliably.
+Turkish commands are recognized with >90% accuracy.
+Prototype works on low-bandwidth (2G/3G) networks.
+
+🚀 Next Steps
+
+Build audio workflow in Adalo (1 month).
+Integrate Lightning payments via Zapier (1 month).
+Mock IP protection with Airtable/ChainGPT (2 weeks).
+Test with 5–10 artists from interviews (via Discord).
+Document results in GitHub (Planned Examples section).
