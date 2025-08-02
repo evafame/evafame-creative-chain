@@ -1,13 +1,18 @@
 Eva & Evafame | Creative Chain Ecosystem
 AI Marketing Agent for Independent Artists & Creators
 🎯 Vision
+
 Eva is an open-source, audio-first AI agent designed to empower independent artists and creators, especially in rural areas with limited literacy or internet access. Built on Bitcoin’s Layer 2 infrastructure (Lightning Network and RGB smart contracts), Eva is part of the Evafame | Creative Chain ecosystem—a decentralized network enabling community-owned creator platforms worldwide. Our mission is to bridge local creativity with the global Bitcoin economy, ensuring financial sovereignty, cultural preservation, and regulatory compliance.
+
 🌱 Current Status: Seed PhaseWe’re building a no-code prototype, conducting artist interviews, and growing our community. Eva will use no-code tools like Voiceflow and ChainGPT to create an accessible, audio-driven platform for artists to sell work and protect IP.
 Open Source | Building in Public | Bitcoin Native | Community Driven
+
 🌍 The Story Behind Eva
 Inspired by an elderly Turkish woman selling handmade crafts, Eva addresses a critical gap: talent exists everywhere, but the tools to reach global Bitcoin markets don’t. Many artists, especially in rural areas, lack access to platforms that support audio-first interaction, censorship-resistant payments, or cultural adaptation. Eva empowers these creators with an AI assistant that speaks their language, protects their work, and connects them to the Bitcoin economy.
+
 🤖 What is Eva?
 Eva is an audio-first AI marketing agent tailored for independent artists. She’s the core of the Evafame ecosystem, enabling communities to create culturally adapted, artist-owned platforms. Key features (planned for MVP):
+
 🗣️ Audio-First Interaction
 
 Voice commands in multiple languages (starting with Turkish, English)
