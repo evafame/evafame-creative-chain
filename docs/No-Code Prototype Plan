@@ -1,0 +1,121 @@
+Eva No-Code Prototype Plan
+This document details the steps to build Eva’s no-code prototype, an audio-first AI for artists to sell work and protect IP using Bitcoin’s Layer 2 (Lightning Network, RGB smart contracts). The plan is designed for non-coders using tools like Voiceflow, Zapier, and ChainGPT, with developer support for integrations.
+
+🎯 Objective
+
+Build a functional MVP in 1–2 months that:
+
+Processes voice commands (e.g., “Sell my artwork for $5”) in Turkish/English.
+Creates Lightning Network payment links.
+Mocks RGB smart contracts for IP protection.
+Caches commands offline for rural artists.
+Supports regional compliance (e.g., GDPR, KYC).
+
+🛠️ Prototype Steps
+
+1. Set Up Audio-First Workflow
+
+Task: Create a voice command flow (e.g., “Sell for $5”).
+Tools: Voiceflow for audio UX, AssemblyAI for Turkish/English transcription.
+Steps:
+Sign up for Voiceflow (free tier).
+Build a flow: Artist speaks → Voiceflow captures → AssemblyAI transcribes.
+Test Turkish commands (e.g., “Eserimi 5 dolara sat”).
+
+
+Non-Coder Role: Test audio accuracy and share feedback in GitHub Issues.
+Timeline: 2 weeks.
+
+2. Integrate Lightning Payments
+
+Task: Generate Bitcoin Lightning invoices via voice commands.
+Tools: Wallet of Satoshi, Zapier, Polar for testnet.
+Steps:
+Set up a Polar testnet node (GUI-based, ~30 min).
+Connect Voiceflow to Wallet of Satoshi via Zapier.
+Workflow: Voice command → Zapier triggers invoice → QR code output.
+
+
+Non-Coder Role: Test invoice generation in Voiceflow/Zapier.
+Developer Role: Integrate Wallet of Satoshi API using its API documentation. Ensure secure handling of API keys and test invoice generation on Polar testnet before production.
+Timeline: 3 weeks.
+
+3. Mock RGB Smart Contracts
+
+Task: Simulate IP protection by storing artwork metadata.
+Tools: ChainGPT, Airtable.
+Steps:
+Use ChainGPT to generate JSON schemas (e.g., {"hash": "abc123", "title": "Sunset"}).
+Store schemas in Airtable as “contracts.”
+Voiceflow flow: “Protect my artwork” → Capture metadata → Save to Airtable.
+
+
+Non-Coder Role: Input metadata in ChainGPT and verify Airtable storage.
+Timeline: 2 weeks.
+
+4. Simulate Offline Caching
+
+Task: Mock BitChat’s offline relay.
+Tools: Bubble, Zapier.
+Steps:
+Cache commands in Bubble’s local storage (e.g., {"action": "sell", "amount": 5}).
+Sync cached data to Wallet of Satoshi when online via Zapier.
+Test offline mode in Bubble.
+
+
+Non-Coder Role: Test caching and report in GitHub Issues.
+Developer Role: Explore BitChat’s Bluetooth mesh for future integration.
+Timeline: 3 weeks.
+
+5. Build Compliance Modules
+
+Task: Create modular workflows for regional regulations.
+Tools: Onfido, Airtable, Zapier.
+Steps:
+Set up Zapier workflow: Voiceflow prompts KYC/GDPR → Onfido verifies ID → Airtable logs.
+Store rules in Airtable (e.g., {"region": "India", "rule": "Aadhaar KYC"}).
+Test GDPR consent form in Bubble.
+
+
+Non-Coder Role: Build and test workflows in Zapier.
+Timeline: 2 weeks.
+
+⚠️ Risks
+
+API Limitations: AssemblyAI’s free tier may have rate limits, impacting transcription for frequent voice commands. Monitor usage and consider paid plans if needed.
+Transcription Accuracy: Turkish voice commands may have lower accuracy due to regional accents. Test extensively with diverse speakers.
+Integration Delays: Wallet of Satoshi API integration may require additional developer time if documentation is incomplete or testnet issues arise.
+Offline Caching: Bubble’s local storage may face browser compatibility issues (e.g., older mobile browsers). Test on common devices used by rural artists.
+
+📋 Timeline
+
+Total: 1–2 months (parallel tasks).
+Milestone: Demo prototype with Turkish audio payments by October 2025.
+
+📚 Resources
+
+Tools: Voiceflow, Zapier, ChainGPT, Bubble
+Bitcoin: Lightning Docs, RGB Docs
+APIs: AssemblyAI, Onfido
+Repo: evafame/evafame-creative-chain
+
+🤝 Contributing Guide
+
+For Non-Coders:
+Sign up for GitHub and join the evafame/evafame-creative-chain repo as a collaborator (request access via Mission Control).
+Test workflows (e.g., Voiceflow, Zapier) and report issues in the repo’s Issues tab.
+Use templates provided in Issues for feedback (e.g., “Voice command failed for Turkish phrase X”).
+
+
+For All Contributors:
+Check the repo’s README for updates and links to this plan.
+Share progress in Mission Control (Discord or X) to align with the team.
+Review open issues before starting tasks to avoid duplication.
+
+
+
+🚀 Next Steps
+
+Sign up for free tool tiers (Voiceflow, Zapier).
+Test workflows and log results in GitHub Issues.
+Share progress in Mission Control (Discord or X).
